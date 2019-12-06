@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LayoutMaster.master.cs" Inherits="Pages_CRUD.LayoutMaster" %>
+<%@ Register Src="~/FeaturedPages.ascx" TagName="FeaturedPages" TagPrefix="asp"%>
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Pages</title>
+   <link rel="stylesheet" type="text/css" href="/Content/styling.css" />
+</head>
+<body>
+    <header>
+        <h1>Manage Pages</h1>
+        <asp:FeaturedPages ID="navigation_links" runat="server"></asp:FeaturedPages>
+    </header>
+    <form id="form1" runat="server">
+        <div>
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">               
+                <div id="navbar1" runat="server"></div>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    <footer>
+        <p>&copy; Krishna Shah | +(000)-123-1234 | shah.krishna1295@gmail.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,144 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 50px;
+    background-color: #23428d;
+    height: 150px;
+    color: #ffd800;
+    font-size: 20px;
+    text-align: center;
+}
+header h1{
+    margin-bottom:2%;
+    padding-top:2%;
+}
+ul a{
+   float:left;
+   text-decoration-line:none;
+   margin:0.5%;
+   padding:5px;
+   color:#ffff;
+   border:1px solid #eab97c;
+}
+ul{
+    
+    display: inline;
+}
+
+footer {
+    margin-top: 10% 0 10% 20%;
+    background-color: #23428d;
+    padding: 30px 0;
+    color: #ffd800;
+    text-align: center;
+}
+
+#pages_result {
+    width: 100%;
+}
+
+.listitem {
+    
+    width: 90%;
+    overflow: hidden;
+    text-align:center;
+}
+
+.listitem:after {
+    clear: both;
+}
+
+.listitem:nth-child(2) {
+    word-wrap: break-word;
+}
+
+.table_view .listitem:nth-child(2n+1) {
+    background-color: #ffd80047;
+}
+
+input{
+    
+    border-radius:5px;
+    height:30px;
+}
+
+button, .save_button, .add_button, .search_button, .cancel_button, .delete_button {
+    border: 0;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.search_button {
+    background-color: #6b7c85;
+    color: #ffffff;
+    border-radius:5px;
+}
+
+.add_button {
+    float: right;
+    margin: 0 10% 2% 0;
+    background-color: #6b7c85;
+    color: #ffffff;
+    border-radius: 5px;
+
+}
+
+.save_button {
+    margin: 1%;
+    background-color: #0000ff;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.delete_button {
+    margin: 1%;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.cancel_button {
+    margin: 1%;
+    background-color: #849324;
+    border-radius: 5px;
+}
+
+#confirmation {
+    color: #ff0000;
+    font-weight: bolder;
+    font-size: 1.5em;
+    border: 0;
+    padding: 5px;
+}
+/*
+Each column should be 17.48% wide with a gutter space of 3.14%
+*/
+.col5 {
+    width: 17.48%;
+    float: left;
+    margin-right: 3%;
+    padding-bottom:15px;
+}
+
+.col5last {
+    width: 10%;
+    float: right;
+    margin-right: 0;
+}
+
+/*different css for view page*/
+h2{
+    text-align:center;
+}
+h4{
+    float:right;
+}
